@@ -1,0 +1,76 @@
+ "sku": {
+        "name": "Standard_RAGRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "id": "/subscriptions/d2690c59-9ae1-479b-b6b8-7483e3bb8bd6/resourceGroups/john/providers/Microsoft.Storage/storageAccounts/demojoy",
+    "name": "demojoy",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "eastus",
+    "tags": {},
+    "properties": {
+        "dnsEndpointType": "Standard",
+        "defaultToOAuthAuthentication": false,
+        "publicNetworkAccess": "Enabled",
+        "keyCreationTime": {
+            "key1": "2026-08-21T20:04:45.3269402Z",
+            "key2": "2026-08-21T20:04:45.3269402Z"
+        },
+        "allowCrossTenantReplication": false,
+        "privateEndpointConnections": [],
+        "minimumTlsVersion": "TLS1_2",
+        "allowBlobPublicAccess": false,
+        "allowSharedKeyAccess": true,
+        "networkAcls": {
+            "resourceAccessRules": [
+                {
+                    "tenantId": "2e49a7d9-fe9f-4453-82b5-97ec7157b5cf",
+                    "resourceId": "/subscriptions/d2690c59-9ae1-479b-b6b8-7483e3bb8bd6/providers/Microsoft.Security/datascanners/StorageDataScanner"
+                }
+            ],
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "requireInfrastructureEncryption": false,
+            "services": {
+                "file": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2026-08-21T20:04:45.3406888Z"
+                },
+                "blob": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2026-08-21T20:04:45.3406888Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Hot",
+        "provisioningState": "Succeeded",
+        "creationTime": "2026-08-21T20:04:44.8978770Z",
+        "primaryEndpoints": {
+            "dfs": "https://demojoy.dfs.core.windows.net/",
+            "web": "https://demojoy.z13.web.core.windows.net/",
+            "blob": "https://demojoy.blob.core.windows.net/",
+            "queue": "https://demojoy.queue.core.windows.net/",
+            "table": "https://demojoy.table.core.windows.net/",
+            "file": "https://demojoy.file.core.windows.net/"
+        },
+        "primaryLocation": "eastus",
+        "statusOfPrimary": "available",
+        "secondaryLocation": "westus",
+        "statusOfSecondary": "available",
+        "secondaryEndpoints": {
+            "dfs": "https://demojoy-secondary.dfs.core.windows.net/",
+            "web": "https://demojoy-secondary.z13.web.core.windows.net/",
+            "blob": "https://demojoy-secondary.blob.core.windows.net/",
+            "queue": "https://demojoy-secondary.queue.core.windows.net/",
+            "table": "https://demojoy-secondary.table.core.windows.net/"
+        }
+    }
+}
